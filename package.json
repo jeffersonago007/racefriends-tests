@@ -1,13 +1,11 @@
 {
   "name": "racefriends-tests",
   "version": "1.0.0",
-  "description": "Automação de testes funcionais com Playwright para Race Friends",
   "scripts": {
-    "test": "playwright test"
+    "test": "npx playwright test"
   },
   "devDependencies": {
-    "@playwright/test": "^1.44.1",
-    "ts-node": "^10.9.2",
-    "typescript": "^5.4.5"
+    "@playwright/test": "^1.43.1",
+    "typescript": "^5.0.0"
   }
 }

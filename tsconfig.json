@@ -1,11 +1,10 @@
 {
   "compilerOptions": {
-    "target": "ES6",
+    "target": "ESNext",
     "module": "commonjs",
-    "moduleResolution": "node",
-    "outDir": "dist",
     "strict": true,
-    "esModuleInterop": true
-  },
-  "include": ["tests", "pages"]
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true
+  }
 }
