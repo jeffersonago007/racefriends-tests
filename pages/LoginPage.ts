@@ -5,7 +5,7 @@ export class LoginPage {
   constructor(private page: Page) {}
 
   async goto() {
-    await this.page.goto('https://racefriends.tripnride.com.br/app/login');
+    await this.page.goto('https://racefriends.tripnride.com.br/login');
     await this.page.waitForLoadState('networkidle');
     await this.page.waitForTimeout(5000); // tempo extra para carregar JavaScript dinâmico
     await this.page.screenshot({ path: 'login-page.png', fullPage: true });
