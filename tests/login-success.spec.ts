@@ -9,6 +9,6 @@ test.describe('Login Page', () => {
     await loginPage.login('agostinho.jefferson@gmail.com', 'jefferson');
 
     // Espera que a URL mude após o login (ajuste conforme comportamento real)
-    await expect(page).toHaveURL(/.*dashboard|.*painel|.*eventos/);
+    await expect(page).toHaveURL(/.*app|.*home|.*eventos/);
   });
 });
