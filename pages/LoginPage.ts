@@ -1,3 +1,4 @@
+
 import { Page } from '@playwright/test';
 
 export class LoginPage {
@@ -5,18 +6,19 @@ export class LoginPage {
 
   async goto() {
     await this.page.goto('https://racefriends.tripnride.com.br/app/login');
+    await this.page.waitForLoadState('networkidle'); // Aguarda o carregamento total da página
   }
 
   async fillEmail(email: string) {
-    await this.page.fill('input[name="email"]', email);
+    await this.page.locator('#email').fill(email);
   }
 
   async fillPassword(password: string) {
-    await this.page.fill('input[name="password"]', password);
+    await this.page.locator('#password').fill(password);
   }
 
   async clickLogin() {
-    await this.page.click('button:has-text("Entrar")');
+    await this.page.locator('button[type="submit"]:has-text("Entrar")').click();
   }
 
   async login(email: string, password: string) {
