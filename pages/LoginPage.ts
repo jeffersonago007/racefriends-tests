@@ -7,7 +7,8 @@ export class LoginPage {
   async goto() {
     await this.page.goto('https://racefriends.tripnride.com.br/app/login');
     await this.page.waitForLoadState('networkidle');
-    await this.page.waitForTimeout(3000); // espera extra para garantir carregamento
+    await this.page.waitForTimeout(5000); // tempo extra para carregar JavaScript dinâmico
+    await this.page.screenshot({ path: 'login-page.png', fullPage: true });
   }
 
   async fillEmail(email: string) {
