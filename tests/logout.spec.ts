@@ -1,28 +1,25 @@
-
 import { test, expect } from '@playwright/test';
 
-test.describe('Logout', () => {
-  test('Usuário consegue fazer logout com sucesso', async ({ page }) => {
-    // Acessa a página de login
-    await page.goto('https://racefriends.tripnride.com.br/login');
+test('Logout › Usuário consegue fazer logout com sucesso', async ({ page }) => {
+  // Acessa a página de login
+  await page.goto('https://racefriends.tripnride.com.br/login');
 
-    // Preenche e-mail e senha válidos
-    await page.locator('#email').fill('agostinho.jefferson@gmail.com');
-    await page.locator('#password').fill('jefferson');
+  // Aguarda os campos aparecerem
+  await page.waitForSelector('#email');
 
-    // Clica no botão de login
-    await page.getByRole('button', { name: 'Entrar' }).click();
+  // Realiza o login
+  await page.fill('#email', 'agostinho.jefferson@gmail.com');
+  await page.fill('#password', 'jefferson');
+  await page.locator('button[type="submit"]').click();
 
-    // Aguarda redirecionamento para a página logada
-    await expect(page).toHaveURL(/.*\/app/);
+  // Aguarda o redirecionamento
+  await expect(page).toHaveURL(/.*\/app/);
 
-    // Clica no botão de menu (avatar)
-    await page.locator('button[aria-label="open drawer"]').click();
+  // Aguarda botão "Sair" aparecer e clica
+  const logoutButton = page.locator('div[role="button"]:has-text("Sair")');
+  await logoutButton.first().waitFor();
+  await logoutButton.first().click();
 
-    // Aguarda e clica no botão de logout
-    await page.getByText('Sair').first().click();
-
-    // Valida que foi redirecionado de volta à tela de login
-    await expect(page).toHaveURL(/.*\/login$/);
-  });
+  // Aguarda o redirecionamento para a tela de login
+  await expect(page).toHaveURL(/.*\/login$/);
 });

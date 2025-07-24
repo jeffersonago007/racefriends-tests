@@ -1,0 +1,2188 @@
+# Page snapshot
+
+```yaml
+- main:
+  - text: Race & Friends
+  - navigation:
+    - link "Race & Friends":
+      - /url: /app
+      - img "Race & Friends"
+    - separator
+    - list:
+      - listitem:
+        - link "Classificação":
+          - /url: /app/ranking
+          - button "Classificação":
+            - img
+            - text: Classificação
+      - listitem:
+        - link "Pilotos":
+          - /url: /app/pilots
+          - button "Pilotos":
+            - img
+            - text: Pilotos
+      - listitem:
+        - link "Etapas":
+          - /url: /app/stages
+          - button "Etapas":
+            - img
+            - text: Etapas
+      - listitem:
+        - link "Resultados":
+          - /url: /app/results
+          - button "Resultados":
+            - img
+            - text: Resultados
+      - listitem:
+        - link "Parceiros":
+          - /url: /app/partners
+          - button "Parceiros":
+            - img
+            - text: Parceiros
+      - listitem:
+        - link "Suporte":
+          - /url: /app/support
+          - button "Suporte":
+            - img
+            - text: Suporte
+    - separator
+    - list:
+      - listitem:
+        - link "Minha Conta":
+          - /url: /account
+          - button "Minha Conta":
+            - img
+            - text: Minha Conta
+    - separator
+    - list:
+      - listitem:
+        - link "Administração":
+          - /url: /app/admin
+          - button "Administração":
+            - img
+            - text: Administração
+    - link "Jefferson Pacheco Agostinho":
+      - /url: /app/pilots/2d8j6oh6psy0yb2
+      - img
+      - heading "Jefferson Pacheco Agostinho" [level=6]
+    - link "Veículo do usuário Corsa Hatch":
+      - /url: /app/pilots/2d8j6oh6psy0yb2
+      - img "Veículo do usuário"
+      - text: Corsa Hatch
+    - separator
+    - list:
+      - listitem:
+        - button "Sair":
+          - img
+          - text: Sair
+  - main:
+    - heading "Classificação" [level=1]
+    - checkbox "Versão Resumida"
+    - text: Versão Resumida
+    - button "Categoria A"
+    - button "Categoria B"
+    - button "Categoria C"
+    - heading "CATEGORIA A" [level=2]
+    - table:
+      - rowgroup:
+        - row "# Piloto 1ª Etapa Interlagos Part. 2ª Etapa Interlagos Part. 3ª Etapa Interlagos Part. 4ª Etapa Interlagos Part. Pontos":
+          - columnheader "#"
+          - columnheader "Piloto"
+          - columnheader "1ª Etapa Interlagos":
+            - link "1ª Etapa Interlagos":
+              - /url: /app/results/0tq9207y2i6z8js
+          - columnheader "Part."
+          - columnheader "2ª Etapa Interlagos":
+            - link "2ª Etapa Interlagos":
+              - /url: /app/results/0p9j18ql0609m9u
+          - columnheader "Part."
+          - columnheader "3ª Etapa Interlagos":
+            - link "3ª Etapa Interlagos":
+              - /url: /app/results/1p36j4u6f43d999
+          - columnheader "Part."
+          - columnheader "4ª Etapa Interlagos":
+            - link "4ª Etapa Interlagos":
+              - /url: /app/results/xa0d671h7111yq6
+          - columnheader "Part."
+          - columnheader "Pontos"
+      - rowgroup:
+        - row "1 Bruno Orlandi 12 1 12 1 12 1 8 1 48":
+          - cell "1"
+          - cell "Bruno Orlandi":
+            - img
+            - paragraph: Bruno Orlandi
+          - cell "12"
+          - cell "1"
+          - cell "12"
+          - cell "1"
+          - cell "12"
+          - cell "1"
+          - cell "8"
+          - cell "1"
+          - cell "48"
+        - row "2 Alex Terela Pinheiro De Castro 7 1 1 1 7 1 12 1 31":
+          - cell "2"
+          - cell "Alex Terela Pinheiro De Castro":
+            - img
+            - paragraph: Alex Terela Pinheiro De Castro
+          - cell "7"
+          - cell "1"
+          - cell "1"
+          - cell "1"
+          - cell "7"
+          - cell "1"
+          - cell "12"
+          - cell "1"
+          - cell "31"
+        - row "3 Vinicius Terela 5 1 0 0 8 1 10 1 26":
+          - cell "3"
+          - cell "Vinicius Terela":
+            - img
+            - paragraph: Vinicius Terela
+          - cell "5"
+          - cell "1"
+          - cell "0"
+          - cell "0"
+          - cell "8"
+          - cell "1"
+          - cell "10"
+          - cell "1"
+          - cell "26"
+        - row "4 Douglas Hernande 10 1 10 1 0 0 0 0 22":
+          - cell "4"
+          - cell "Douglas Hernande":
+            - img
+            - paragraph: Douglas Hernande
+          - cell "10"
+          - cell "1"
+          - cell "10"
+          - cell "1"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "22"
+        - row "5 Alexandre Duarte Bulgari 0 0 7 1 0 0 7 1 16":
+          - cell "5"
+          - cell "Alexandre Duarte Bulgari":
+            - img
+            - paragraph: Alexandre Duarte Bulgari
+          - cell "0"
+          - cell "0"
+          - cell "7"
+          - cell "1"
+          - cell "0"
+          - cell "0"
+          - cell "7"
+          - cell "1"
+          - cell "16"
+        - row "6 Adriano Matsuo 0 0 8 1 5 1 0 0 15":
+          - cell "6"
+          - cell "Adriano Matsuo":
+            - img
+            - paragraph: Adriano Matsuo
+          - cell "0"
+          - cell "0"
+          - cell "8"
+          - cell "1"
+          - cell "5"
+          - cell "1"
+          - cell "0"
+          - cell "0"
+          - cell "15"
+        - row "7 AA Alexandre Meira de Angelo 0 0 0 0 10 1 0 0 11":
+          - cell "7"
+          - cell "AA Alexandre Meira de Angelo":
+            - text: AA
+            - paragraph: Alexandre Meira de Angelo
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "10"
+          - cell "1"
+          - cell "0"
+          - cell "0"
+          - cell "11"
+        - row "8 Kayque Andrade Barbosa 8 1 0 0 0 0 0 0 9":
+          - cell "8"
+          - cell "Kayque Andrade Barbosa":
+            - img
+            - paragraph: Kayque Andrade Barbosa
+          - cell "8"
+          - cell "1"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "9"
+        - row "9 Erick Tavares 0 0 6 1 0 0 0 1 8":
+          - cell "9"
+          - cell "Erick Tavares":
+            - img
+            - paragraph: Erick Tavares
+          - cell "0"
+          - cell "0"
+          - cell "6"
+          - cell "1"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "1"
+          - cell "8"
+        - row "10 RL Ricardo Vinicius Lupatelli 0 0 0 1 6 1 0 0 8":
+          - cell "10"
+          - cell "RL Ricardo Vinicius Lupatelli":
+            - text: RL
+            - paragraph: Ricardo Vinicius Lupatelli
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "1"
+          - cell "6"
+          - cell "1"
+          - cell "0"
+          - cell "0"
+          - cell "8"
+        - row "11 EF Enzo Martins Foglia 0 0 0 0 0 0 6 1 7":
+          - cell "11"
+          - cell "EF Enzo Martins Foglia":
+            - text: EF
+            - paragraph: Enzo Martins Foglia
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "6"
+          - cell "1"
+          - cell "7"
+        - row "12 WN Wanderley Natali 6 1 0 0 0 0 0 0 7":
+          - cell "12"
+          - cell "WN Wanderley Natali":
+            - text: WN
+            - paragraph: Wanderley Natali
+          - cell "6"
+          - cell "1"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "7"
+        - row "13 CM Cézar Calzza Mussoi 0 0 0 0 0 0 5 1 6":
+          - cell "13"
+          - cell "CM Cézar Calzza Mussoi":
+            - text: CM
+            - paragraph: Cézar Calzza Mussoi
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "5"
+          - cell "1"
+          - cell "6"
+        - row "14 GN Geraldo Teles Machado Netto 0 0 3 1 1 1 0 0 6":
+          - cell "14"
+          - cell "GN Geraldo Teles Machado Netto":
+            - text: GN
+            - paragraph: Geraldo Teles Machado Netto
+          - cell "0"
+          - cell "0"
+          - cell "3"
+          - cell "1"
+          - cell "1"
+          - cell "1"
+          - cell "0"
+          - cell "0"
+          - cell "6"
+        - row "15 AC Alexandre Corcovia 0 0 5 1 0 0 0 0 6":
+          - cell "15"
+          - cell "AC Alexandre Corcovia":
+            - text: AC
+            - paragraph: Alexandre Corcovia
+          - cell "0"
+          - cell "0"
+          - cell "5"
+          - cell "1"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "6"
+        - row "16 GT Gustavo Tsuboi 4 1 0 0 0 0 0 0 5":
+          - cell "16"
+          - cell "GT Gustavo Tsuboi":
+            - text: GT
+            - paragraph: Gustavo Tsuboi
+          - cell "4"
+          - cell "1"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "5"
+        - row "17 WW Wagner Wilke 0 0 4 1 0 0 0 0 5":
+          - cell "17"
+          - cell "WW Wagner Wilke":
+            - text: WW
+            - paragraph: Wagner Wilke
+          - cell "0"
+          - cell "0"
+          - cell "4"
+          - cell "1"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "5"
+        - row "18 EQ Emanuel Queiroz 0 0 0 0 4 1 0 0 5":
+          - cell "18"
+          - cell "EQ Emanuel Queiroz":
+            - text: EQ
+            - paragraph: Emanuel Queiroz
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "4"
+          - cell "1"
+          - cell "0"
+          - cell "0"
+          - cell "5"
+        - row "19 Vanderlei Junior 0 0 0 0 0 0 4 1 5":
+          - cell "19"
+          - cell "Vanderlei Junior":
+            - img
+            - paragraph: Vanderlei Junior
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "4"
+          - cell "1"
+          - cell "5"
+        - row "20 LN Leonardo Neves 2 1 0 0 0 1 0 0 4":
+          - cell "20"
+          - cell "LN Leonardo Neves":
+            - text: LN
+            - paragraph: Leonardo Neves
+          - cell "2"
+          - cell "1"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "1"
+          - cell "0"
+          - cell "0"
+          - cell "4"
+        - row "21 FA Filipe Andrade 0 0 0 0 0 0 3 1 4":
+          - cell "21"
+          - cell "FA Filipe Andrade":
+            - text: FA
+            - paragraph: Filipe Andrade
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "3"
+          - cell "1"
+          - cell "4"
+        - row "22 CS Clovis Siqueira 3 1 0 0 0 0 0 0 4":
+          - cell "22"
+          - cell "CS Clovis Siqueira":
+            - text: CS
+            - paragraph: Clovis Siqueira
+          - cell "3"
+          - cell "1"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "4"
+        - row "23 ML Mario Lancellotti 0 0 0 0 3 1 0 0 4":
+          - cell "23"
+          - cell "ML Mario Lancellotti":
+            - text: ML
+            - paragraph: Mario Lancellotti
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "3"
+          - cell "1"
+          - cell "0"
+          - cell "0"
+          - cell "4"
+        - row "24 LR Leonardo Di raimo 0 0 0 0 0 0 2 1 3":
+          - cell "24"
+          - cell "LR Leonardo Di raimo":
+            - text: LR
+            - paragraph: Leonardo Di raimo
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "2"
+          - cell "1"
+          - cell "3"
+        - row "25 GL George Lisi 0 0 0 0 2 1 0 0 3":
+          - cell "25"
+          - cell "GL George Lisi":
+            - text: GL
+            - paragraph: George Lisi
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "2"
+          - cell "1"
+          - cell "0"
+          - cell "0"
+          - cell "3"
+        - row "26 GF Guilherme Fernandes Ferreira 0 0 2 1 0 0 0 0 3":
+          - cell "26"
+          - cell "GF Guilherme Fernandes Ferreira":
+            - text: GF
+            - paragraph: Guilherme Fernandes Ferreira
+          - cell "0"
+          - cell "0"
+          - cell "2"
+          - cell "1"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "3"
+        - row "27 FABRICIO SILVEIRA DO NASCIMENTO 0 0 0 0 0 0 1 1 2":
+          - cell "27"
+          - cell "FABRICIO SILVEIRA DO NASCIMENTO":
+            - img
+            - paragraph: FABRICIO SILVEIRA DO NASCIMENTO
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "1"
+          - cell "1"
+          - cell "2"
+        - row "28 MT Marcelo tonet 0 0 0 0 0 0 0 1 1":
+          - cell "28"
+          - cell "MT Marcelo tonet":
+            - text: MT
+            - paragraph: Marcelo tonet
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "1"
+          - cell "1"
+        - row "29 WN Walther Nucci 0 0 0 0 0 1 0 0 1":
+          - cell "29"
+          - cell "WN Walther Nucci":
+            - text: WN
+            - paragraph: Walther Nucci
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "1"
+          - cell "0"
+          - cell "0"
+          - cell "1"
+        - row "30 IQ Iuri Vladimir De Jesus Queiroz 0 0 0 0 0 0 0 1 1":
+          - cell "30"
+          - cell "IQ Iuri Vladimir De Jesus Queiroz":
+            - text: IQ
+            - paragraph: Iuri Vladimir De Jesus Queiroz
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "1"
+          - cell "1"
+        - row "31 RF Ricardo Fasanella 0 0 0 0 0 0 0 1 1":
+          - cell "31"
+          - cell "RF Ricardo Fasanella":
+            - text: RF
+            - paragraph: Ricardo Fasanella
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "1"
+          - cell "1"
+        - row "32 JL Junior Lyra 0 0 0 0 0 0 0 1 1":
+          - cell "32"
+          - cell "JL Junior Lyra":
+            - text: JL
+            - paragraph: Junior Lyra
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "1"
+          - cell "1"
+        - row "33 AC Andre Chiappetta 0 0 0 0 0 0 0 1 1":
+          - cell "33"
+          - cell "AC Andre Chiappetta":
+            - text: AC
+            - paragraph: Andre Chiappetta
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "1"
+          - cell "1"
+        - row "34 RF Ricardo Filippetti 0 0 0 0 0 1 0 0 1":
+          - cell "34"
+          - cell "RF Ricardo Filippetti":
+            - text: RF
+            - paragraph: Ricardo Filippetti
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "1"
+          - cell "0"
+          - cell "0"
+          - cell "1"
+        - row "35 FA Fernando Nino Andrade 0 0 0 0 0 0 0 1 1":
+          - cell "35"
+          - cell "FA Fernando Nino Andrade":
+            - text: FA
+            - paragraph: Fernando Nino Andrade
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "1"
+          - cell "1"
+        - row "36 Carlos Moura 0 0 0 0 0 0 0 1 1":
+          - cell "36"
+          - cell "Carlos Moura":
+            - img
+            - paragraph: Carlos Moura
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "1"
+          - cell "1"
+        - row "37 AM Adriano Marcandali 0 0 0 0 0 1 0 0 1":
+          - cell "37"
+          - cell "AM Adriano Marcandali":
+            - text: AM
+            - paragraph: Adriano Marcandali
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "1"
+          - cell "0"
+          - cell "0"
+          - cell "1"
+        - row "38 GM Giovanni Vallesi Maynart 0 0 0 0 0 0 0 1 1":
+          - cell "38"
+          - cell "GM Giovanni Vallesi Maynart":
+            - text: GM
+            - paragraph: Giovanni Vallesi Maynart
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "1"
+          - cell "1"
+        - row "39 PC Paulo Min Woo Choi 0 0 0 0 0 0 0 1 1":
+          - cell "39"
+          - cell "PC Paulo Min Woo Choi":
+            - text: PC
+            - paragraph: Paulo Min Woo Choi
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "1"
+          - cell "1"
+        - row "40 RN Roger Soares Nascimento 0 1 0 0 0 0 0 0 1":
+          - cell "40"
+          - cell "RN Roger Soares Nascimento":
+            - text: RN
+            - paragraph: Roger Soares Nascimento
+          - cell "0"
+          - cell "1"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "1"
+        - row "41 AF Anderson Martins Ferreira 0 0 0 0 0 0 0 1 1":
+          - cell "41"
+          - cell "AF Anderson Martins Ferreira":
+            - text: AF
+            - paragraph: Anderson Martins Ferreira
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "1"
+          - cell "1"
+        - row "42 AR Anderson Roso 0 1 0 0 0 0 0 0 1":
+          - cell "42"
+          - cell "AR Anderson Roso":
+            - text: AR
+            - paragraph: Anderson Roso
+          - cell "0"
+          - cell "1"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "1"
+        - row "43 CP Calebe Nunes Pastor 0 1 0 0 0 0 0 0 1":
+          - cell "43"
+          - cell "CP Calebe Nunes Pastor":
+            - text: CP
+            - paragraph: Calebe Nunes Pastor
+          - cell "0"
+          - cell "1"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "1"
+        - row "44 EF Edson Fell 0 0 0 0 0 1 0 0 1":
+          - cell "44"
+          - cell "EF Edson Fell":
+            - text: EF
+            - paragraph: Edson Fell
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "1"
+          - cell "0"
+          - cell "0"
+          - cell "1"
+        - row "45 PR PHELIPE GABRIEL ROMANO 0 0 0 0 0 1 0 0 1":
+          - cell "45"
+          - cell "PR PHELIPE GABRIEL ROMANO":
+            - text: PR
+            - paragraph: PHELIPE GABRIEL ROMANO
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "1"
+          - cell "0"
+          - cell "0"
+          - cell "1"
+        - row "46 FL Fabio Lagonegro 0 0 0 0 0 0 0 1 1":
+          - cell "46"
+          - cell "FL Fabio Lagonegro":
+            - text: FL
+            - paragraph: Fabio Lagonegro
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "1"
+          - cell "1"
+        - row "47 RF Rogerio Rodrigues dos santos ferreira 0 1 0 0 0 0 0 0 1":
+          - cell "47"
+          - cell "RF Rogerio Rodrigues dos santos ferreira":
+            - text: RF
+            - paragraph: Rogerio Rodrigues dos santos ferreira
+          - cell "0"
+          - cell "1"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "1"
+        - row "48 GU Guilherme 0 0 0 0 0 0 0 1 1":
+          - cell "48"
+          - cell "GU Guilherme":
+            - text: GU
+            - paragraph: Guilherme
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "1"
+          - cell "1"
+        - row "49 JT John Taylor 0 0 0 0 0 0 0 1 1":
+          - cell "49"
+          - cell "JT John Taylor":
+            - text: JT
+            - paragraph: John Taylor
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "1"
+          - cell "1"
+    - heading "CATEGORIA B" [level=2]
+    - table:
+      - rowgroup:
+        - row "# Piloto 1ª Etapa Interlagos Part. 2ª Etapa Interlagos Part. 3ª Etapa Interlagos Part. 4ª Etapa Interlagos Part. Pontos":
+          - columnheader "#"
+          - columnheader "Piloto"
+          - columnheader "1ª Etapa Interlagos":
+            - link "1ª Etapa Interlagos":
+              - /url: /app/results/0tq9207y2i6z8js
+          - columnheader "Part."
+          - columnheader "2ª Etapa Interlagos":
+            - link "2ª Etapa Interlagos":
+              - /url: /app/results/0p9j18ql0609m9u
+          - columnheader "Part."
+          - columnheader "3ª Etapa Interlagos":
+            - link "3ª Etapa Interlagos":
+              - /url: /app/results/1p36j4u6f43d999
+          - columnheader "Part."
+          - columnheader "4ª Etapa Interlagos":
+            - link "4ª Etapa Interlagos":
+              - /url: /app/results/xa0d671h7111yq6
+          - columnheader "Part."
+          - columnheader "Pontos"
+      - rowgroup:
+        - row "1 Marcelo Gios 12 1 12 1 12 1 12 1 52":
+          - cell "1"
+          - cell "Marcelo Gios":
+            - img
+            - paragraph: Marcelo Gios
+          - cell "12"
+          - cell "1"
+          - cell "12"
+          - cell "1"
+          - cell "12"
+          - cell "1"
+          - cell "12"
+          - cell "1"
+          - cell "52"
+        - row "2 Rogerio Moreno Onofrio 5 1 10 1 8 1 2 1 29":
+          - cell "2"
+          - cell "Rogerio Moreno Onofrio":
+            - img
+            - paragraph: Rogerio Moreno Onofrio
+          - cell "5"
+          - cell "1"
+          - cell "10"
+          - cell "1"
+          - cell "8"
+          - cell "1"
+          - cell "2"
+          - cell "1"
+          - cell "29"
+        - row "3 Leonardo Getirana Silva 8 1 0 1 6 1 5 1 23":
+          - cell "3"
+          - cell "Leonardo Getirana Silva":
+            - img
+            - paragraph: Leonardo Getirana Silva
+          - cell "8"
+          - cell "1"
+          - cell "0"
+          - cell "1"
+          - cell "6"
+          - cell "1"
+          - cell "5"
+          - cell "1"
+          - cell "23"
+        - row "4 Jefferson Pacheco Agostinho 0 1 8 1 5 1 6 1 23":
+          - cell "4"
+          - cell "Jefferson Pacheco Agostinho":
+            - img
+            - paragraph: Jefferson Pacheco Agostinho
+          - cell "0"
+          - cell "1"
+          - cell "8"
+          - cell "1"
+          - cell "5"
+          - cell "1"
+          - cell "6"
+          - cell "1"
+          - cell "23"
+        - row "5 André Pestana 7 1 0 0 0 1 10 1 20":
+          - cell "5"
+          - cell "André Pestana":
+            - img
+            - paragraph: André Pestana
+          - cell "7"
+          - cell "1"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "1"
+          - cell "10"
+          - cell "1"
+          - cell "20"
+        - row "6 Luciana Onishi 4 1 7 1 0 1 3 1 18":
+          - cell "6"
+          - cell "Luciana Onishi":
+            - img
+            - paragraph: Luciana Onishi
+          - cell "4"
+          - cell "1"
+          - cell "7"
+          - cell "1"
+          - cell "0"
+          - cell "1"
+          - cell "3"
+          - cell "1"
+          - cell "18"
+        - row "7 Waine Arice Filho 1 1 0 0 10 1 1 1 15":
+          - cell "7"
+          - cell "Waine Arice Filho":
+            - img
+            - paragraph: Waine Arice Filho
+          - cell "1"
+          - cell "1"
+          - cell "0"
+          - cell "0"
+          - cell "10"
+          - cell "1"
+          - cell "1"
+          - cell "1"
+          - cell "15"
+        - row "8 WW Wagner Wilke 0 0 0 0 3 1 7 1 12":
+          - cell "8"
+          - cell "WW Wagner Wilke":
+            - text: WW
+            - paragraph: Wagner Wilke
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "3"
+          - cell "1"
+          - cell "7"
+          - cell "1"
+          - cell "12"
+        - row "9 Kalel Aniceto 10 1 0 0 0 0 0 0 11":
+          - cell "9"
+          - cell "Kalel Aniceto":
+            - img
+            - paragraph: Kalel Aniceto
+          - cell "10"
+          - cell "1"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "11"
+        - row "10 Erick Tavares 0 1 0 0 7 1 0 0 9":
+          - cell "10"
+          - cell "Erick Tavares":
+            - img
+            - paragraph: Erick Tavares
+          - cell "0"
+          - cell "1"
+          - cell "0"
+          - cell "0"
+          - cell "7"
+          - cell "1"
+          - cell "0"
+          - cell "0"
+          - cell "9"
+        - row "11 BF Bruno Ferrari 0 0 0 0 0 0 8 1 9":
+          - cell "11"
+          - cell "BF Bruno Ferrari":
+            - text: BF
+            - paragraph: Bruno Ferrari
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "8"
+          - cell "1"
+          - cell "9"
+        - row "12 Rafael Pinto 0 0 6 1 0 1 0 0 8":
+          - cell "12"
+          - cell "Rafael Pinto":
+            - img
+            - paragraph: Rafael Pinto
+          - cell "0"
+          - cell "0"
+          - cell "6"
+          - cell "1"
+          - cell "0"
+          - cell "1"
+          - cell "0"
+          - cell "0"
+          - cell "8"
+        - row "13 MS Marcos Rainier Corrêa de Sá 6 1 0 0 0 0 0 0 7":
+          - cell "13"
+          - cell "MS Marcos Rainier Corrêa de Sá":
+            - text: MS
+            - paragraph: Marcos Rainier Corrêa de Sá
+          - cell "6"
+          - cell "1"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "7"
+        - row "14 CM Carlos Urbano De Zoppa Moreira 0 0 5 1 0 0 0 0 6":
+          - cell "14"
+          - cell "CM Carlos Urbano De Zoppa Moreira":
+            - text: CM
+            - paragraph: Carlos Urbano De Zoppa Moreira
+          - cell "0"
+          - cell "0"
+          - cell "5"
+          - cell "1"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "6"
+        - row "15 Clenilson Costa 0 1 0 1 2 1 0 1 6":
+          - cell "15"
+          - cell "Clenilson Costa":
+            - img
+            - paragraph: Clenilson Costa
+          - cell "0"
+          - cell "1"
+          - cell "0"
+          - cell "1"
+          - cell "2"
+          - cell "1"
+          - cell "0"
+          - cell "1"
+          - cell "6"
+        - row "16 WP Wagner Roberto Pugliese 0 1 4 1 0 0 0 0 6":
+          - cell "16"
+          - cell "WP Wagner Roberto Pugliese":
+            - text: WP
+            - paragraph: Wagner Roberto Pugliese
+          - cell "0"
+          - cell "1"
+          - cell "4"
+          - cell "1"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "6"
+        - row "17 CM Cézar Calzza Mussoi 0 0 0 0 0 0 5 1 6":
+          - cell "17"
+          - cell "CM Cézar Calzza Mussoi":
+            - text: CM
+            - paragraph: Cézar Calzza Mussoi
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "5"
+          - cell "1"
+          - cell "6"
+        - row "18 Eurico Oliveira 0 0 0 0 0 0 4 1 5":
+          - cell "18"
+          - cell "Eurico Oliveira":
+            - img
+            - paragraph: Eurico Oliveira
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "4"
+          - cell "1"
+          - cell "5"
+        - row "19 AG André Gerard 0 0 0 0 4 1 0 0 5":
+          - cell "19"
+          - cell "AG André Gerard":
+            - text: AG
+            - paragraph: André Gerard
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "4"
+          - cell "1"
+          - cell "0"
+          - cell "0"
+          - cell "5"
+        - row "20 GU Guilherme 0 0 3 1 0 0 0 0 4":
+          - cell "20"
+          - cell "GU Guilherme":
+            - text: GU
+            - paragraph: Guilherme
+          - cell "0"
+          - cell "0"
+          - cell "3"
+          - cell "1"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "4"
+        - row "21 Alexandre Duarte Bulgari 3 1 0 0 0 0 0 0 4":
+          - cell "21"
+          - cell "Alexandre Duarte Bulgari":
+            - img
+            - paragraph: Alexandre Duarte Bulgari
+          - cell "3"
+          - cell "1"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "4"
+        - row "22 LA Luís Arruda 2 1 0 0 0 0 0 0 3":
+          - cell "22"
+          - cell "LA Luís Arruda":
+            - text: LA
+            - paragraph: Luís Arruda
+          - cell "2"
+          - cell "1"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "3"
+        - row "23 AA Angelo Asinno 0 0 2 1 0 0 0 0 3":
+          - cell "23"
+          - cell "AA Angelo Asinno":
+            - text: AA
+            - paragraph: Angelo Asinno
+          - cell "0"
+          - cell "0"
+          - cell "2"
+          - cell "1"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "3"
+        - row "24 GS Gabriel Sousa 0 0 0 0 1 1 0 0 2":
+          - cell "24"
+          - cell "GS Gabriel Sousa":
+            - text: GS
+            - paragraph: Gabriel Sousa
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "1"
+          - cell "1"
+          - cell "0"
+          - cell "0"
+          - cell "2"
+        - row "25 RF Rafael Feijó 0 0 1 1 0 0 0 0 2":
+          - cell "25"
+          - cell "RF Rafael Feijó":
+            - text: RF
+            - paragraph: Rafael Feijó
+          - cell "0"
+          - cell "0"
+          - cell "1"
+          - cell "1"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "2"
+        - row "26 AM Antonio Carlos Marranghello 0 0 0 0 0 1 0 0 1":
+          - cell "26"
+          - cell "AM Antonio Carlos Marranghello":
+            - text: AM
+            - paragraph: Antonio Carlos Marranghello
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "1"
+          - cell "0"
+          - cell "0"
+          - cell "1"
+        - row "27 JM João Pedro Perilo Martins 0 1 0 0 0 0 0 0 1":
+          - cell "27"
+          - cell "JM João Pedro Perilo Martins":
+            - text: JM
+            - paragraph: João Pedro Perilo Martins
+          - cell "0"
+          - cell "1"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "1"
+        - row "28 RC Rodrigo Castro 0 0 0 0 0 1 0 0 1":
+          - cell "28"
+          - cell "RC Rodrigo Castro":
+            - text: RC
+            - paragraph: Rodrigo Castro
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "1"
+          - cell "0"
+          - cell "0"
+          - cell "1"
+        - row "29 Calvin Santos 0 0 0 0 0 0 0 1 1":
+          - cell "29"
+          - cell "Calvin Santos":
+            - img
+            - paragraph: Calvin Santos
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "1"
+          - cell "1"
+        - row "30 Carlos Henrique Moraes 0 0 0 0 0 0 0 1 1":
+          - cell "30"
+          - cell "Carlos Henrique Moraes":
+            - img
+            - paragraph: Carlos Henrique Moraes
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "1"
+          - cell "1"
+        - row "31 MN Marcelo Henrique Nunes 0 0 0 0 0 0 0 1 1":
+          - cell "31"
+          - cell "MN Marcelo Henrique Nunes":
+            - text: MN
+            - paragraph: Marcelo Henrique Nunes
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "1"
+          - cell "1"
+        - row "32 Bruno Guido da Silva 0 1 0 0 0 0 0 0 1":
+          - cell "32"
+          - cell "Bruno Guido da Silva":
+            - img
+            - paragraph: Bruno Guido da Silva
+          - cell "0"
+          - cell "1"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "1"
+        - row "33 Marcelo Machado 0 0 0 0 0 0 0 1 1":
+          - cell "33"
+          - cell "Marcelo Machado":
+            - img
+            - paragraph: Marcelo Machado
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "1"
+          - cell "1"
+        - row "34 GH Gustavo Haddad 0 0 0 0 0 0 0 1 1":
+          - cell "34"
+          - cell "GH Gustavo Haddad":
+            - text: GH
+            - paragraph: Gustavo Haddad
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "1"
+          - cell "1"
+        - row "35 Nilo Fernando Fonseca Pinto 0 0 0 0 0 0 0 1 1":
+          - cell "35"
+          - cell "Nilo Fernando Fonseca Pinto":
+            - img
+            - paragraph: Nilo Fernando Fonseca Pinto
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "1"
+          - cell "1"
+        - row "36 RL Ricardo Vinicius Lupatelli 0 1 0 0 0 0 0 0 1":
+          - cell "36"
+          - cell "RL Ricardo Vinicius Lupatelli":
+            - text: RL
+            - paragraph: Ricardo Vinicius Lupatelli
+          - cell "0"
+          - cell "1"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "1"
+        - row "37 WN Wanderley Natali 0 0 0 0 0 1 0 0 1":
+          - cell "37"
+          - cell "WN Wanderley Natali":
+            - text: WN
+            - paragraph: Wanderley Natali
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "1"
+          - cell "0"
+          - cell "0"
+          - cell "1"
+        - row "38 MZ Mauricio Zuardi 0 0 0 0 0 0 0 1 1":
+          - cell "38"
+          - cell "MZ Mauricio Zuardi":
+            - text: MZ
+            - paragraph: Mauricio Zuardi
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "1"
+          - cell "1"
+        - row "39 RG Rodolfo Della Colletta Garcia 0 0 0 1 0 0 0 0 1":
+          - cell "39"
+          - cell "RG Rodolfo Della Colletta Garcia":
+            - text: RG
+            - paragraph: Rodolfo Della Colletta Garcia
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "1"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "1"
+        - row "40 CS Christian Sudbrack 0 1 0 0 0 0 0 0 1":
+          - cell "40"
+          - cell "CS Christian Sudbrack":
+            - text: CS
+            - paragraph: Christian Sudbrack
+          - cell "0"
+          - cell "1"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "1"
+        - row "41 LG Lucas Gazotti 0 1 0 0 0 0 0 0 1":
+          - cell "41"
+          - cell "LG Lucas Gazotti":
+            - text: LG
+            - paragraph: Lucas Gazotti
+          - cell "0"
+          - cell "1"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "1"
+        - row "42 PR PHELIPE GABRIEL ROMANO 0 0 0 0 0 0 0 1 1":
+          - cell "42"
+          - cell "PR PHELIPE GABRIEL ROMANO":
+            - text: PR
+            - paragraph: PHELIPE GABRIEL ROMANO
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "1"
+          - cell "1"
+        - row "43 LM Lucas Messias 0 0 0 0 0 1 0 0 1":
+          - cell "43"
+          - cell "LM Lucas Messias":
+            - text: LM
+            - paragraph: Lucas Messias
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "1"
+          - cell "0"
+          - cell "0"
+          - cell "1"
+        - row "44 VH Vinicius Sasaki Homrich 0 0 0 0 0 1 0 0 1":
+          - cell "44"
+          - cell "VH Vinicius Sasaki Homrich":
+            - text: VH
+            - paragraph: Vinicius Sasaki Homrich
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "1"
+          - cell "0"
+          - cell "0"
+          - cell "1"
+        - row "45 GF Gustavo Teruo Fujimoto 0 1 0 0 0 0 0 0 1":
+          - cell "45"
+          - cell "GF Gustavo Teruo Fujimoto":
+            - text: GF
+            - paragraph: Gustavo Teruo Fujimoto
+          - cell "0"
+          - cell "1"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "1"
+        - row "46 DA Davi Augusto 0 1 0 0 0 0 0 0 1":
+          - cell "46"
+          - cell "DA Davi Augusto":
+            - text: DA
+            - paragraph: Davi Augusto
+          - cell "0"
+          - cell "1"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "1"
+        - row "47 Nelson Batista Ramos Junior 0 0 0 0 0 1 0 0 1":
+          - cell "47"
+          - cell "Nelson Batista Ramos Junior":
+            - img
+            - paragraph: Nelson Batista Ramos Junior
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "1"
+          - cell "0"
+          - cell "0"
+          - cell "1"
+    - heading "CATEGORIA C" [level=2]
+    - table:
+      - rowgroup:
+        - row "# Piloto 1ª Etapa Interlagos Part. 2ª Etapa Interlagos Part. 3ª Etapa Interlagos Part. 4ª Etapa Interlagos Part. Pontos":
+          - columnheader "#"
+          - columnheader "Piloto"
+          - columnheader "1ª Etapa Interlagos":
+            - link "1ª Etapa Interlagos":
+              - /url: /app/results/0tq9207y2i6z8js
+          - columnheader "Part."
+          - columnheader "2ª Etapa Interlagos":
+            - link "2ª Etapa Interlagos":
+              - /url: /app/results/0p9j18ql0609m9u
+          - columnheader "Part."
+          - columnheader "3ª Etapa Interlagos":
+            - link "3ª Etapa Interlagos":
+              - /url: /app/results/1p36j4u6f43d999
+          - columnheader "Part."
+          - columnheader "4ª Etapa Interlagos":
+            - link "4ª Etapa Interlagos":
+              - /url: /app/results/xa0d671h7111yq6
+          - columnheader "Part."
+          - columnheader "Pontos"
+      - rowgroup:
+        - row "1 Mario Trevizan 12 1 10 1 12 1 12 1 50":
+          - cell "1"
+          - cell "Mario Trevizan":
+            - img
+            - paragraph: Mario Trevizan
+          - cell "12"
+          - cell "1"
+          - cell "10"
+          - cell "1"
+          - cell "12"
+          - cell "1"
+          - cell "12"
+          - cell "1"
+          - cell "50"
+        - row "2 MC Marco Antonio Stang Carletto 7 1 8 1 8 1 8 1 35":
+          - cell "2"
+          - cell "MC Marco Antonio Stang Carletto":
+            - text: MC
+            - paragraph: Marco Antonio Stang Carletto
+          - cell "7"
+          - cell "1"
+          - cell "8"
+          - cell "1"
+          - cell "8"
+          - cell "1"
+          - cell "8"
+          - cell "1"
+          - cell "35"
+        - row "3 Helder Domingues 8 1 6 1 0 0 10 1 27":
+          - cell "3"
+          - cell "Helder Domingues":
+            - img
+            - paragraph: Helder Domingues
+          - cell "8"
+          - cell "1"
+          - cell "6"
+          - cell "1"
+          - cell "0"
+          - cell "0"
+          - cell "10"
+          - cell "1"
+          - cell "27"
+        - row "4 BF Bruno Ferrari 6 1 12 1 0 1 0 0 21":
+          - cell "4"
+          - cell "BF Bruno Ferrari":
+            - text: BF
+            - paragraph: Bruno Ferrari
+          - cell "6"
+          - cell "1"
+          - cell "12"
+          - cell "1"
+          - cell "0"
+          - cell "1"
+          - cell "0"
+          - cell "0"
+          - cell "21"
+        - row "5 GF Gustavo Teruo Fujimoto 0 0 7 1 0 0 6 1 15":
+          - cell "5"
+          - cell "GF Gustavo Teruo Fujimoto":
+            - text: GF
+            - paragraph: Gustavo Teruo Fujimoto
+          - cell "0"
+          - cell "0"
+          - cell "7"
+          - cell "1"
+          - cell "0"
+          - cell "0"
+          - cell "6"
+          - cell "1"
+          - cell "15"
+        - row "6 Carlos Eduardo Rocha 0 1 4 1 0 0 7 1 14":
+          - cell "6"
+          - cell "Carlos Eduardo Rocha":
+            - img
+            - paragraph: Carlos Eduardo Rocha
+          - cell "0"
+          - cell "1"
+          - cell "4"
+          - cell "1"
+          - cell "0"
+          - cell "0"
+          - cell "7"
+          - cell "1"
+          - cell "14"
+        - row "7 Rodrigo Camargo 1 1 0 0 10 1 0 0 13":
+          - cell "7"
+          - cell "Rodrigo Camargo":
+            - img
+            - paragraph: Rodrigo Camargo
+          - cell "1"
+          - cell "1"
+          - cell "0"
+          - cell "0"
+          - cell "10"
+          - cell "1"
+          - cell "0"
+          - cell "0"
+          - cell "13"
+        - row "8 DL Daniel Lima 10 1 0 0 0 0 0 0 11":
+          - cell "8"
+          - cell "DL Daniel Lima":
+            - text: DL
+            - paragraph: Daniel Lima
+          - cell "10"
+          - cell "1"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "11"
+        - row "9 AL Ataliba José De Assis Lara 0 0 0 0 6 1 3 1 11":
+          - cell "9"
+          - cell "AL Ataliba José De Assis Lara":
+            - text: AL
+            - paragraph: Ataliba José De Assis Lara
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "6"
+          - cell "1"
+          - cell "3"
+          - cell "1"
+          - cell "11"
+        - row "10 Alex Takeda 0 0 0 1 5 1 1 1 9":
+          - cell "10"
+          - cell "Alex Takeda":
+            - img
+            - paragraph: Alex Takeda
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "1"
+          - cell "5"
+          - cell "1"
+          - cell "1"
+          - cell "1"
+          - cell "9"
+        - row "11 Reginaldo Alves de Souza 2 1 3 1 0 1 0 1 9":
+          - cell "11"
+          - cell "Reginaldo Alves de Souza":
+            - img
+            - paragraph: Reginaldo Alves de Souza
+          - cell "2"
+          - cell "1"
+          - cell "3"
+          - cell "1"
+          - cell "0"
+          - cell "1"
+          - cell "0"
+          - cell "1"
+          - cell "9"
+        - row "12 DC David Costa 0 0 0 0 7 1 0 0 8":
+          - cell "12"
+          - cell "DC David Costa":
+            - text: DC
+            - paragraph: David Costa
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "7"
+          - cell "1"
+          - cell "0"
+          - cell "0"
+          - cell "8"
+        - row "13 RC Rodrigo Castro 0 0 5 1 0 0 0 0 6":
+          - cell "13"
+          - cell "RC Rodrigo Castro":
+            - text: RC
+            - paragraph: Rodrigo Castro
+          - cell "0"
+          - cell "0"
+          - cell "5"
+          - cell "1"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "6"
+        - row "14 TS Tiago Fonseca Gomes dos Santos 5 1 0 0 0 0 0 0 6":
+          - cell "14"
+          - cell "TS Tiago Fonseca Gomes dos Santos":
+            - text: TS
+            - paragraph: Tiago Fonseca Gomes dos Santos
+          - cell "5"
+          - cell "1"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "6"
+        - row "15 LC Lucas De Lacerda Chiaradia 0 0 0 0 0 0 5 1 6":
+          - cell "15"
+          - cell "LC Lucas De Lacerda Chiaradia":
+            - text: LC
+            - paragraph: Lucas De Lacerda Chiaradia
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "5"
+          - cell "1"
+          - cell "6"
+        - row "16 Douglas Ferraz Bueno 3 1 0 0 0 1 0 0 5":
+          - cell "16"
+          - cell "Douglas Ferraz Bueno":
+            - img
+            - paragraph: Douglas Ferraz Bueno
+          - cell "3"
+          - cell "1"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "1"
+          - cell "0"
+          - cell "0"
+          - cell "5"
+        - row "17 FS Felipe Cardoso Militão da Silva 0 0 0 0 0 0 4 1 5":
+          - cell "17"
+          - cell "FS Felipe Cardoso Militão da Silva":
+            - text: FS
+            - paragraph: Felipe Cardoso Militão da Silva
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "4"
+          - cell "1"
+          - cell "5"
+        - row "18 MS Mauricio Stravino 4 1 0 0 0 0 0 0 5":
+          - cell "18"
+          - cell "MS Mauricio Stravino":
+            - text: MS
+            - paragraph: Mauricio Stravino
+          - cell "4"
+          - cell "1"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "5"
+        - row "19 JB Jonnatan Braga 0 0 0 0 4 1 0 0 5":
+          - cell "19"
+          - cell "JB Jonnatan Braga":
+            - text: JB
+            - paragraph: Jonnatan Braga
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "4"
+          - cell "1"
+          - cell "0"
+          - cell "0"
+          - cell "5"
+        - row "20 Alexander Medeiros 0 0 0 0 3 1 0 0 4":
+          - cell "20"
+          - cell "Alexander Medeiros":
+            - img
+            - paragraph: Alexander Medeiros
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "3"
+          - cell "1"
+          - cell "0"
+          - cell "0"
+          - cell "4"
+        - row "21 JN Jayr de Amorim Neto 0 0 0 0 2 1 0 0 3":
+          - cell "21"
+          - cell "JN Jayr de Amorim Neto":
+            - text: JN
+            - paragraph: Jayr de Amorim Neto
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "2"
+          - cell "1"
+          - cell "0"
+          - cell "0"
+          - cell "3"
+        - row "22 RR Ronaldo Augusto Rocho Rocho 0 0 0 0 0 0 2 1 3":
+          - cell "22"
+          - cell "RR Ronaldo Augusto Rocho Rocho":
+            - text: RR
+            - paragraph: Ronaldo Augusto Rocho Rocho
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "2"
+          - cell "1"
+          - cell "3"
+        - row "23 LR Leonardo Di raimo 0 0 0 0 0 0 2 1 3":
+          - cell "23"
+          - cell "LR Leonardo Di raimo":
+            - text: LR
+            - paragraph: Leonardo Di raimo
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "2"
+          - cell "1"
+          - cell "3"
+        - row "24 AA Angelo Aletta 0 0 2 1 0 0 0 0 3":
+          - cell "24"
+          - cell "AA Angelo Aletta":
+            - text: AA
+            - paragraph: Angelo Aletta
+          - cell "0"
+          - cell "0"
+          - cell "2"
+          - cell "1"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "3"
+        - row "25 AA Anderson Antossi 0 0 1 1 0 0 0 0 2":
+          - cell "25"
+          - cell "AA Anderson Antossi":
+            - text: AA
+            - paragraph: Anderson Antossi
+          - cell "0"
+          - cell "0"
+          - cell "1"
+          - cell "1"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "2"
+        - row "26 JS Joao Siqueira 0 0 0 1 0 0 0 1 2":
+          - cell "26"
+          - cell "JS Joao Siqueira":
+            - text: JS
+            - paragraph: Joao Siqueira
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "1"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "1"
+          - cell "2"
+        - row "27 Jacob Paes 0 0 0 0 1 1 0 0 2":
+          - cell "27"
+          - cell "Jacob Paes":
+            - img
+            - paragraph: Jacob Paes
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "1"
+          - cell "1"
+          - cell "0"
+          - cell "0"
+          - cell "2"
+        - row "28 Bruno Di Santo 0 1 0 0 0 0 0 0 1":
+          - cell "28"
+          - cell "Bruno Di Santo":
+            - img
+            - paragraph: Bruno Di Santo
+          - cell "0"
+          - cell "1"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "1"
+        - row "29 PR PHELIPE GABRIEL ROMANO 0 1 0 0 0 0 0 0 1":
+          - cell "29"
+          - cell "PR PHELIPE GABRIEL ROMANO":
+            - text: PR
+            - paragraph: PHELIPE GABRIEL ROMANO
+          - cell "0"
+          - cell "1"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "1"
+        - row "30 DB Diego Bissi 0 0 0 1 0 0 0 0 1":
+          - cell "30"
+          - cell "DB Diego Bissi":
+            - text: DB
+            - paragraph: Diego Bissi
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "1"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "1"
+        - row "31 GF Gabriel Felix 0 1 0 0 0 0 0 0 1":
+          - cell "31"
+          - cell "GF Gabriel Felix":
+            - text: GF
+            - paragraph: Gabriel Felix
+          - cell "0"
+          - cell "1"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "1"
+        - row "32 PA PEDRO PELLISSER ALBERGARD 0 0 0 0 0 0 0 1 1":
+          - cell "32"
+          - cell "PA PEDRO PELLISSER ALBERGARD":
+            - text: PA
+            - paragraph: PEDRO PELLISSER ALBERGARD
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "1"
+          - cell "1"
+        - row "33 JA Jose Baz Agra 0 1 0 0 0 0 0 0 1":
+          - cell "33"
+          - cell "JA Jose Baz Agra":
+            - text: JA
+            - paragraph: Jose Baz Agra
+          - cell "0"
+          - cell "1"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "1"
+        - row "34 Yoshio Moriyama 0 0 0 0 0 1 0 0 1":
+          - cell "34"
+          - cell "Yoshio Moriyama":
+            - img
+            - paragraph: Yoshio Moriyama
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "1"
+          - cell "0"
+          - cell "0"
+          - cell "1"
+        - row "35 LG Luiz Meneghelli Girotto 0 0 0 0 0 0 0 1 1":
+          - cell "35"
+          - cell "LG Luiz Meneghelli Girotto":
+            - text: LG
+            - paragraph: Luiz Meneghelli Girotto
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "1"
+          - cell "1"
+        - row "36 PV Paulo Vidal 0 0 0 0 0 1 0 0 1":
+          - cell "36"
+          - cell "PV Paulo Vidal":
+            - text: PV
+            - paragraph: Paulo Vidal
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "1"
+          - cell "0"
+          - cell "0"
+          - cell "1"
+        - row "37 AC Antonio Ribeiro Da Costa 0 0 0 1 0 0 0 0 1":
+          - cell "37"
+          - cell "AC Antonio Ribeiro Da Costa":
+            - text: AC
+            - paragraph: Antonio Ribeiro Da Costa
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "1"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "1"
+        - row "38 RF Ricardo Fasanella 0 0 0 0 0 0 0 1 1":
+          - cell "38"
+          - cell "RF Ricardo Fasanella":
+            - text: RF
+            - paragraph: Ricardo Fasanella
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "1"
+          - cell "1"
+        - row "39 GA Gustavo Isao Arakaki 0 0 0 1 0 0 0 0 1":
+          - cell "39"
+          - cell "GA Gustavo Isao Arakaki":
+            - text: GA
+            - paragraph: Gustavo Isao Arakaki
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "1"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "1"
+        - row "40 AC Alexandre Carvalho 0 0 0 0 0 0 0 1 1":
+          - cell "40"
+          - cell "AC Alexandre Carvalho":
+            - text: AC
+            - paragraph: Alexandre Carvalho
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "1"
+          - cell "1"
+        - row "41 FS Felipe Rabelo Siriguti 0 1 0 0 0 0 0 0 1":
+          - cell "41"
+          - cell "FS Felipe Rabelo Siriguti":
+            - text: FS
+            - paragraph: Felipe Rabelo Siriguti
+          - cell "0"
+          - cell "1"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "1"
+        - row "42 WV Wagner Vitte 0 0 0 1 0 0 0 0 1":
+          - cell "42"
+          - cell "WV Wagner Vitte":
+            - text: WV
+            - paragraph: Wagner Vitte
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "1"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "1"
+        - row "43 EP EDMILSON ANTONIO PINHATA 0 0 0 0 0 0 0 1 1":
+          - cell "43"
+          - cell "EP EDMILSON ANTONIO PINHATA":
+            - text: EP
+            - paragraph: EDMILSON ANTONIO PINHATA
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "1"
+          - cell "1"
+        - row "44 Túlio Piccinini Mota 0 0 0 0 0 0 0 1 1":
+          - cell "44"
+          - cell "Túlio Piccinini Mota":
+            - img
+            - paragraph: Túlio Piccinini Mota
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "1"
+          - cell "1"
+        - row "45 Gustavo Antonio Nunes Silva 0 0 0 0 0 0 0 1 1":
+          - cell "45"
+          - cell "Gustavo Antonio Nunes Silva":
+            - img
+            - paragraph: Gustavo Antonio Nunes Silva
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "1"
+          - cell "1"
+        - row "46 Nilo Fernando Fonseca Pinto 0 0 0 0 0 1 0 0 1":
+          - cell "46"
+          - cell "Nilo Fernando Fonseca Pinto":
+            - img
+            - paragraph: Nilo Fernando Fonseca Pinto
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "1"
+          - cell "0"
+          - cell "0"
+          - cell "1"
+        - row "47 RP Ricardo P. 0 1 0 0 0 0 0 0 1":
+          - cell "47"
+          - cell "RP Ricardo P.":
+            - text: RP
+            - paragraph: Ricardo P.
+          - cell "0"
+          - cell "1"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "1"
+        - row "48 Edmilson Pinhata 0 0 0 1 0 0 0 0 1":
+          - cell "48"
+          - cell "Edmilson Pinhata":
+            - img
+            - paragraph: Edmilson Pinhata
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "1"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "1"
+        - row "49 LA Lucas Adriano 0 0 0 0 0 1 0 0 1":
+          - cell "49"
+          - cell "LA Lucas Adriano":
+            - text: LA
+            - paragraph: Lucas Adriano
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "1"
+          - cell "0"
+          - cell "0"
+          - cell "1"
+- alert: Classificação - Race & Friends
+```
