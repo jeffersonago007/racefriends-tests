@@ -1,18 +1,26 @@
+
 import { test, expect } from '@playwright/test';
-import { LoginPage } from '../pages/LoginPage';
 
 test.describe('Logout', () => {
   test('Usuário consegue fazer logout com sucesso', async ({ page }) => {
-    const loginPage = new LoginPage(page);
+    // Acessa a página de login
+    await page.goto('https://racefriends.tripnride.com.br/login');
 
-    await loginPage.goto();
-    await loginPage.login('agostinho.jefferson@gmail.com', 'jefferson');
+    // Preenche e-mail e senha válidos
+    await page.locator('#email').fill('agostinho.jefferson@gmail.com');
+    await page.locator('#password').fill('jefferson');
 
-    // Aguarda o redirecionamento para a tela logada
-    await expect(page).toHaveURL(/.*\/app$/);
+    // Clica no botão de login
+    await page.getByRole('button', { name: 'Entrar' }).click();
 
-    // Clica no botão de logout (ajuste o seletor conforme necessário)
-    await page.locator('text=Sair').click();
+    // Aguarda redirecionamento para a página logada
+    await expect(page).toHaveURL(/.*\/app/);
+
+    // Clica no botão de menu (avatar)
+    await page.locator('button[aria-label="open drawer"]').click();
+
+    // Aguarda e clica no botão de logout
+    await page.getByText('Sair').first().click();
 
     // Valida que foi redirecionado de volta à tela de login
     await expect(page).toHaveURL(/.*\/login$/);

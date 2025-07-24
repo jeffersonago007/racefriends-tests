@@ -1,0 +1,92 @@
+# Page snapshot
+
+```yaml
+- main:
+  - text: Race & Friends
+  - navigation:
+    - link "Race & Friends":
+      - /url: /app
+      - img "Race & Friends"
+    - separator
+    - list:
+      - listitem:
+        - link "Classificação":
+          - /url: /app/ranking
+          - button "Classificação":
+            - img
+            - text: Classificação
+      - listitem:
+        - link "Pilotos":
+          - /url: /app/pilots
+          - button "Pilotos":
+            - img
+            - text: Pilotos
+      - listitem:
+        - link "Etapas":
+          - /url: /app/stages
+          - button "Etapas":
+            - img
+            - text: Etapas
+      - listitem:
+        - link "Resultados":
+          - /url: /app/results
+          - button "Resultados":
+            - img
+            - text: Resultados
+      - listitem:
+        - link "Parceiros":
+          - /url: /app/partners
+          - button "Parceiros":
+            - img
+            - text: Parceiros
+      - listitem:
+        - link "Suporte":
+          - /url: /app/support
+          - button "Suporte":
+            - img
+            - text: Suporte
+    - separator
+    - list:
+      - listitem:
+        - link "Minha Conta":
+          - /url: /account
+          - button "Minha Conta":
+            - img
+            - text: Minha Conta
+    - separator
+    - list:
+      - listitem:
+        - link "Administração":
+          - /url: /app/admin
+          - button "Administração":
+            - img
+            - text: Administração
+    - link "Jefferson Pacheco Agostinho":
+      - /url: /app/pilots/2d8j6oh6psy0yb2
+      - img
+      - heading "Jefferson Pacheco Agostinho" [level=6]
+    - link "Veículo do usuário Corsa Hatch":
+      - /url: /app/pilots/2d8j6oh6psy0yb2
+      - img "Veículo do usuário"
+      - text: Corsa Hatch
+    - separator
+    - list:
+      - listitem:
+        - button "Sair":
+          - img
+          - text: Sair
+  - main:
+    - heading "Etapa Passada" [level=5]
+    - link "29º RACE & FRIENDS FESTIVAL AUTÓDROMO DE INTERLAGOS PASSEIO NA PISTA RALLY DE REGULARIDADE TRACK 29º RACE & FRIENDS FESTIVAL AUTÓDROMO DE INTERLAGOS PASSEIO NA PISTA RALLY DE REGULARIDADE TRACK 20 de Julho de 2025 Interlagos - São Paulo - SP Ver Resultados":
+      - /url: /app/etapas/29o-race-friends-festival-autodromo-de-interlagos-passeio-na-pista-rally-de-regularidade-track
+      - img "29º RACE & FRIENDS FESTIVAL AUTÓDROMO DE INTERLAGOS PASSEIO NA PISTA RALLY DE REGULARIDADE TRACK"
+      - heading "29º RACE & FRIENDS FESTIVAL AUTÓDROMO DE INTERLAGOS PASSEIO NA PISTA RALLY DE REGULARIDADE TRACK" [level=2]
+      - img
+      - paragraph: 20 de Julho de 2025
+      - img
+      - paragraph: Interlagos - São Paulo - SP
+      - button "Ver Resultados":
+        - img
+        - text: Ver Resultados
+- alert: Race & Friends
+```
